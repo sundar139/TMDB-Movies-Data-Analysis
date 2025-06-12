@@ -1,19 +1,19 @@
-# TMDB Movies Data Analysis
+# 🎥 TMDB Movies Data Analysis
 
-## 📊 Introduction
+## Introduction
 
 This project performs an in-depth data analysis of a dataset containing approximately **1 million movies** collected from **The Movie Database (TMDB)**. TMDB is a comprehensive online movie database that offers rich metadata for movies across the world, including details such as titles, genres, average ratings, vote counts, revenue, runtime, release dates, and more.
 
 The main objective of this analysis is to uncover meaningful insights into global movie trends, genre popularity, audience ratings, and financial performance, and how these factors interplay across languages, decades, and genres.
 
-## 🔍 Objectives
+## Objectives
 
 - **Clean and prepare the raw data** to ensure high-quality analysis.
 - **Visualize trends** across genres, languages, decades, and movie characteristics.
 - **Identify relationships** between revenue, ratings, runtime, language, and genre.
 - **Extract insights** that may reflect changes in the movie industry over time.
 
-## 🧹 Data Preparation
+## Data Preparation
 
 The raw dataset contained inconsistencies and missing data that required preprocessing:
 
@@ -23,15 +23,15 @@ The raw dataset contained inconsistencies and missing data that required preproc
 - Normalized date formats and filtered movies released between 1900 and 2025.
 - Cleaned and extracted genres from semi-structured strings.
 
-## 📈 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
-### 🎭 Genre Analysis
+### Genre Analysis
 
 - Extracted genre lists and analyzed genre frequency.
 - Identified the **Top 10 most common genres**.
 - Tracked the **evolution of genre popularity across decades (1990–2025)**.
 
-### ⭐ Ratings and Revenue Insights
+### Ratings and Revenue Insights
 
 - Explored how ratings vary across genres.
 - Analyzed **average rating trends by decade**.
@@ -43,11 +43,11 @@ The raw dataset contained inconsistencies and missing data that required preproc
 
 - Investigated how **runtime** and **vote counts** correlate with revenue.
 
-### 🌎 Language Diversity
+### Language Diversity
 
 - Examined the growth of language diversity in global cinema over time.
 
-## 💡 Key Findings
+## Key Findings
 
 - **Genre Shifts**: While genres like Drama, Comedy, Action, and Thriller dominate overall, the relative popularity shifts over time.
 - **Language Trends**: English-language films still dominate revenue, but non-English films show increasing diversity and respectable ratings.
@@ -56,7 +56,7 @@ The raw dataset contained inconsistencies and missing data that required preproc
 - **Multi-genre films** often outperform single-genre films in both ratings and revenue.
 - **Cult classics** often receive high critical acclaim without achieving massive box office success.
 
-## 🏁 Conclusion
+## Conclusion
 
 The TMDB dataset provides a rich, multifaceted view of the global movie industry. Through detailed analysis, we observe:
 
